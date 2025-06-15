@@ -1,6 +1,23 @@
 {
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.10",
+  "name": "portofolio-sederhana",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
     "tailwindcss": "^4.1.10"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadhilabz/Portofolio-ModelynTorff2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadhilabz/Portofolio-ModelynTorff2021/issues"
+  },
+  "homepage": "https://github.com/fadhilabz/Portofolio-ModelynTorff2021#readme",
+  "description": ""
 }
