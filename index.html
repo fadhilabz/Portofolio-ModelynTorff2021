@@ -1,77 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="src/output.css">
-    <link rel="stylesheet" href="dist/output.css">
-</head>
-<body class="relative md:px-10 px-4 bg-[#eff1fc]">
-
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body class="relative md:px-10 px-4 bg-[#eff1fc]">
     <nav class="lg:flex hidden absolute left-0 max-w-7xl w-[93%] mx-auto right-0 h-16 rounded-xl justify-between items-center pr-10 z-50">
-        <h1>Madelyn Torff</h1>
-        <ul class="flex gap-20">
-            <li><a href="">About</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Contacts</a></li>
-        </ul>
+      <h1>Madelyn Torff</h1>
+      <ul class="flex gap-20">
+        <li><a class="hover:text-teal-50" href="">About</a></li>
+        <li><a class="hover:text-teal-50" href="">Projects</a></li>
+        <li><a class="hover:text-teal-50" href="">Contacts</a></li>
+      </ul>
     </nav>
 
-    <header class="relative flex lg:flex-row flex-col max-w-7xl justify-between items-center mx-auto lg:h-[660px]  gap-8 pb-10">
-        <div class="flex flex-col gap-5 w-full lg:order-2 order-1">
-            <h1 class="text-xl text-[#FDC435]">UI/UX Designer</h1>
-            <h2 class="lg:text-5xl text-4xl text-[#828282] font-bold md:w-[450px] font-serif">Hello, my name is Madelyn Torff</h2>
-            <p class="text-xl text-[#828282] w-90">Short text with details about you, what you do or your professional carrer. You can add more infomation on the about page</p>
-            <ul>
-                <button class="bg-[#FDC435] text-[#828282] rounded-[7px] px-3 py-1.5 font-semibold border-2 border-[#FDC435]">Projects</button>
-                <button class=" text-[#828282] rounded-[7px] px-3 py-1.5 font-semibold border-2 border-black">LinkedIn</button>
-            </ul>
-        </div>
-        <div class="lg:absolute relative top-0 -right-10 ">
-            <img class="lg:w-[600px] w-full" src="img/bg.png" alt="bg">
-        </div>
+    <header class="relative flex lg:flex-row flex-col max-w-7xl justify-between items-center mx-auto lg:h-[660px] gap-8 pb-10">
+      <div class="flex flex-col gap-5 w-full lg:order-2 order-1">
+        <h1 class="text-xl text-[#FDC435]">UI/UX Designer</h1>
+        <h2 class="lg:text-5xl text-4xl text-[#828282] font-bold md:w-[450px] font-serif">Hello, my name is Madelyn Torff</h2>
+        <p class="text-xl text-[#828282] w-90">
+          Short text with details about you, what you do or your professional carrer. You can add more infomation on the about page
+        </p>
+        <ul>
+          <button class="bg-[#FDC435] text-[#828282] rounded-[7px] px-3 py-1.5 font-semibold border-2 border-[#FDC435] hover:bg-white hover:text-black hover:border-black transition duration-75 ">Projects</button>
+          <button class="text-[#828282] rounded-[7px] px-3 py-1.5 font-semibold border-2 border-black transition hover:scale-105 duration-100 hover:bg-amber-400 hover:text-white ">LinkedIn</button>
+        </ul>
+      </div>
+      <div class="lg:absolute relative top-0 -right-10">
+        <img class="lg:w-[600px] w-full" src="img/bg.png" alt="bg" />
+      </div>
     </header>
 
     <section class="flex flex-col mx-auto gap-10">
-        <div class="mx-auto">
-            <h1 class="font-bold font-serif text-4xl">Projects</h1>
-            <div class="border-2 border-amber-300 w-20 mt-1 mx-auto"></div>
-        </div>
+      <div class="mx-auto">
+        <h1 class="font-bold font-serif text-4xl">Projects</h1>
+        <div class="border-2 border-amber-300 w-20 mt-1 mx-auto"></div>
+      </div>
 
-        <div class="flex justify-between mx-auto bg-white lg:w-4xl w-full rounded-xl">
-            <div class="flex flex-col justify-center md:pl-10 p-2 md:gap-5">
-                <h2 class="lg:text-4xl text-xl font-bold font-serif">Projects Name</h2>
-                <p class="[90%] lg:text-xl text-sm text-[#828282]">Lorem ipsum dolor sit amet consectetur adipisicing elit. In saepe porro nulla. Labore nemo eligendi minima dolore nihil fuga odio, beatae amet.</p>
-            </div>
-            <img class="lg:w-full md:w-90 w-40" src="img/projek1.png" alt="">
+      <div class="flex justify-between mx-auto bg-white lg:w-4xl w-full rounded-xl hover:scale-105 transition duration-300">
+        <div class="flex flex-col justify-center md:pl-10 p-2 md:gap-5">
+          <h2 class="md:text-4xl text-xl font-bold font-serif">Projects Name</h2>
+          <p class="[90%] md:text-xl text-sm text-[#828282]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In saepe porro nulla. Labore nemo eligendi minima dolore nihil fuga
+            odio, beatae amet.
+          </p>
         </div>
+        <img class="lg:w-full md:w-90 w-40" src="img/projek1.png" alt="" />
+      </div>
 
-        <div class="flex justify-between mx-auto bg-white lg:w-4xl w-full rounded-xl">
-            <img class="lg:w-full md:w-90 w-40 " src="img/projek2.png" alt="">
+      <div class="flex justify-between mx-auto bg-white lg:w-4xl w-full rounded-xl hover:scale-105 transition duration-300">
+        <img class="lg:w-full md:w-90 w-40" src="img/projek2.png" alt="" />
 
-            <div class="flex flex-col justify-center md:pl-10 md:gap-5 p-2">
-                <h2 class="lg:text-4xl text-xl font-bold font-serif">Projects Name</h2>
-                <p class="w-[90%] bg-amber-30 lg:text-xl text-sm text-[#828282]">Lorem ipsum dolor sit amet consectetur adipisicing elit. In saepe porro nulla. Labore nemo eligendi minima dolore nihil fuga odio, beatae amet.</p>
-            </div>
+        <div class="flex flex-col justify-center md:pl-10 md:gap-5 p-2">
+          <h2 class="md:text-4xl text-xl font-bold font-serif">Projects Name</h2>
+          <p class="w-[90%] bg-amber-30 md:text-xl text-sm text-[#828282]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In saepe porro nulla. Labore nemo eligendi minima dolore nihil fuga
+            odio, beatae amet.
+          </p>
         </div>
+      </div>
 
-        <div class="flex justify-between mx-auto bg-white lg:w-4xl w-full rounded-xl">
-            <div class="flex flex-col justify-center md:pl-10 md:gap-5 p-2">
-                <h2 class="lg:text-4xl text-xl font-bold font-serif">Projects Name</h2>
-                <p class="w-[90%] md:text-xl text-sm text-[#828282]">Lorem ipsum dolor sit amet consectetur adipisicing elit. In saepe porro nulla. Labore nemo eligendi minima dolore nihil fuga odio, beatae amet.</p>
-            </div>
-            <img class="lg:w-full md:w-90 w-40" src="img/projek3.png" alt="">
+      <div class="flex justify-between mx-auto bg-white lg:w-4xl w-full rounded-xl hover:scale-105 transition duration-300">
+        <div class="flex flex-col justify-center md:pl-10 md:gap-5 p-2">
+          <h2 class="md:text-4xl text-xl font-bold font-serif">Projects Name</h2>
+          <p class="w-[90%] md:text-xl text-sm text-[#828282]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In saepe porro nulla. Labore nemo eligendi minima dolore nihil fuga
+            odio, beatae amet.
+          </p>
         </div>
+        <img class="lg:w-full md:w-90 w-40" src="img/projek3.png" alt="" />
+      </div>
     </section>
 
     <footer class="flex flex-col gap-6 mx-auto py-16">
-        <div class="flex justify-center gap-10">
-            <img src="img/gmail.png" alt="icon gmail">
-            <img src="img/in.png" alt="icon in">
-            <img src="img/ig.png" alt="icon ig">
+      <div class="flex justify-center gap-10">
+        <div class="relative group">
+          <img class="absolute transition duration-300 group-hover:opacity-0" src="img/gmail.png" alt="icon gmail" />
+          <img class="opacity-0 transition duration-300 group-hover:opacity-100" src="img/kuning-email.png" alt="icon gmail kuning" />
         </div>
-        <h6 class="text-[#828282] text-xl text-center">Modelyn Torff 2021</h6>
+        <div class="relative group">
+          <img class="absolute transition duration-300 group-hover:opacity-0" src="img/in.png" alt="icon in" />
+          <img class="transition duration-300 opacity-0 group-hover:opacity-100" src="img/kuning-in.png" alt="" />
+        </div>
+
+        <div class="relative group">
+          <img class="absolute transition duration-300 group-hover:opacity-0" src="img/ig.png" alt="icon ig" />
+          <img class="transition duration-300 opacity-0 group-hover:opacity-100" src="img/kuning-ig.png" alt="" />
+        </div>
+      </div>
+      <h6 class="text-[#828282] text-xl text-center">Modelyn Torff 2021</h6>
     </footer>
-</body>
+  </body>
 </html>
